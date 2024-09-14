@@ -35,7 +35,7 @@ export default function FlightSearch() {
             <SelectItem value="system">Cali</SelectItem>
           </SelectContent>
         </Select>
-        <button onClick={() => router.push(route.flightSearched)} className="bg-slate-950 p-2 text-center border-gray-300 border-2 rounded-md">
+        <button onClick={() => router.push(route.flightSearched)} className="w-full text-white bg-slate-950 p-2 text-center border-gray-300 border-2 rounded-md">
           Buscar vuelos
         </button>
       </div>
