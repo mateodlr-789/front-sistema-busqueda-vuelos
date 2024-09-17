@@ -41,6 +41,7 @@ export default function LayoutDashboard({ children }: Props) {
 
             <LayoutMain.Body>{children}</LayoutMain.Body>
           </div>
+          
         </>
       )}
     </LayoutMain>

@@ -7,7 +7,8 @@ export type IKind =
   | "ear-phones-alt"
   | "chart"
   | "phone"
-  | "wrench";
+  | "wrench"
+  | "air-plane";
 
 export interface IconProps {
   className: string;

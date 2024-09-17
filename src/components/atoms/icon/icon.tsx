@@ -1,4 +1,4 @@
-import { SlArrowRight, SlArrowLeft, SlArrowUp, SlArrowDown, SlPeople, SlEarphonesAlt, SlChart, SlPhone, SlWrench } from "react-icons/sl"
+import { SlArrowRight, SlArrowLeft, SlPlane, SlArrowUp, SlArrowDown, SlPeople, SlEarphonesAlt, SlChart, SlPhone, SlWrench } from "react-icons/sl"
 
 import { IconProps, IKind } from "."
 
@@ -22,6 +22,8 @@ function IconUi({ type }: { type: IKind }): JSX.Element {
             return <SlPhone />
         case 'wrench':
             return <SlWrench />
+        case 'air-plane':
+            return <SlPlane />
     }
 }
 
