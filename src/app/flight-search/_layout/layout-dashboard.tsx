@@ -2,6 +2,7 @@ import { LayoutMain } from "./components/layout";
 import Menu from "./components/menu";
 import MenuMovil from "./components/menu-responsive";
 import { Avatar } from "./components/avatar";
+import ThemeToggleButton from "./components/button-theme";
 
 interface Props {
   children: React.ReactNode;
@@ -17,6 +18,7 @@ export default function LayoutDashboard({ children }: Props) {
             toggleMenuActive={toggleMenuActive}
             menuActive={menuActive}
           >
+            <ThemeToggleButton />
             <button
               className="cursor-pointer border-2 p-2 rounded-md"
               onClick={() => console.log("holaaa")}

@@ -8,7 +8,9 @@ export type IKind =
   | "chart"
   | "phone"
   | "wrench"
-  | "air-plane";
+  | "air-plane"
+  | "moon"
+  | "sun";
 
 export interface IconProps {
   className: string;
