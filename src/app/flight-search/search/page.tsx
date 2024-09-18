@@ -120,10 +120,19 @@ export default function FlightSearch() {
               </div>
             </div>
           </div>
-          
-        </div>
-      </Composition.Body>
-    </Composition>
-  );
+					<footer className="w-full pb-14 pt-4 bg-gray-200 dark:bg-slate-800 mt-auto">
+						<div className="container mx-auto px-4 text-center">
+							<p className="text-base text-gray-700 dark:text-gray-300 mb-2">
+								Copyright © 2024 - CodeF@ctory UdeA
+							</p>
+							<p className="text-base text-gray-700 dark:text-gray-300 mb-2">
+								Términos y Condiciones
+							</p>
+						</div>
+					</footer>
+				</div>
+			</Composition.Body>
+		</Composition>
+	);
 }
 
